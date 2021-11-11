@@ -51,3 +51,8 @@ type Disk struct {
 	Free    string `json:"free"`
 	Percent int    `json:"percent"`
 }
+
+type PublicIPNats struct {
+	Agentid  string `json:"agent_id"`
+	PublicIP string `json:"public_ip"`
+}
