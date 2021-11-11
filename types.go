@@ -32,3 +32,13 @@ type WindowsService struct {
 	StartType        string `json:"start_type"`
 	DelayedAutoStart bool   `json:"autodelay"`
 }
+
+type WinWMINats struct {
+	Agentid string      `json:"agent_id"`
+	WMI     interface{} `json:"wmi"`
+}
+
+type WinDisksNats struct {
+	Agentid string      `json:"agent_id"`
+	Disks   interface{} `json:"disks"`
+}
