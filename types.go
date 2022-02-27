@@ -14,6 +14,7 @@ type AgentInfoNats struct {
 	TotalRAM     float64 `json:"total_ram"`
 	BootTime     int64   `json:"boot_time"`
 	RebootNeeded bool    `json:"needs_reboot"`
+	GoArch       string  `json:"goarch"`
 }
 
 type WinSvcNats struct {
